@@ -48,6 +48,7 @@ hr{
     left:12%;
     font-size: 200%;
 
+
 }
 
 
@@ -131,4 +132,25 @@ input{
     width: 150px;
 
 
+}
+
+.bajo_tabla{
+    position: relative;
+    font-size: 20px;
+    color: white;
+    width: 80%;
+    max-width: 600px;
+    text-align: start;
+    
+
+}
+
+.nombre_cv{
+
+    font-size: 30px;
+}
+
+table{
+
+    max-width: 600px;
 }
