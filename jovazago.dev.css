@@ -110,8 +110,8 @@ hr{
 
 footer{
 
-    position: absolute;
-    top: 270%;
+    position: relative;
+    top: 190%;
     width: 100%;
  
 
