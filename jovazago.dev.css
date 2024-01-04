@@ -1,0 +1,108 @@
+
+html{
+
+    scroll-behavior: smooth;
+}
+
+
+hr{
+    position: absolute;
+    width: 100%;
+    background-color: black;
+    top: 80%;
+
+
+}
+
+.fondo_web{
+    position: absolute;
+    right: 10%;
+    left: 10%;
+    top: 0%;
+    bottom: 0%;
+    background-color: rgba(255, 255, 255, 0.8);
+    overflow: auto;
+    overflow-y: visible;
+    overflow-x: hidden;
+    
+}
+
+.nickname{
+
+    text-align: start;
+    position: fixed;
+    left:12%;
+
+
+}
+
+
+
+.menu{
+    right: 20%;
+    text-align: center;
+    position: fixed;
+}
+
+.fondo_nm{
+  width: 80%;
+  height: 50px;
+  background-color:rgb(206, 206, 206);
+  position: fixed;
+  top: 0;
+  left: 10%;
+  z-index: 1;
+
+}
+
+
+.principal{
+    position: relative;
+    top: 40%;
+    scroll-margin-top: 900px;
+   
+
+
+}
+
+
+.coffee{
+    position: fixed;
+    bottom: 2%;
+    right: 14%;
+    width: 25px;
+    background-color: rgb(0, 153, 255);
+    background-size: cover;
+    border-radius: 50%;
+    
+
+}
+
+.form{
+
+    position: relative;
+    top: 180%;
+
+
+}
+
+.about{
+
+    position: relative;
+    top: 100%;
+    text-align: left;
+    text-overflow: initial;
+    font-size: 16px;
+    left: 0%;
+    right: 0%;
+    width: 90%;
+    scroll-margin-top: 250px;
+    scroll-behavior: smooth;
+}
+
+footer{
+
+    position: absolute;
+    top: 250%;
+
+}
