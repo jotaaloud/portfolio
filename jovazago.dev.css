@@ -5,7 +5,7 @@ html{
 
 h1{
 
-    font-size: 300%;
+    font-size: 400%;
 
 }
 
@@ -14,7 +14,7 @@ h1{
 .subt{
 
 
-    font-size: 150%;
+    font-size: 200%;
 
 }
 
@@ -22,7 +22,7 @@ hr{
     position: absolute;
     width: 100%;
     background-color: black;
-    top: 80%;
+    top: 90%;
 
 
 }
@@ -45,7 +45,7 @@ hr{
     text-align: start;
     position: fixed;
     left:12%;
-    font-size: 150%;
+    font-size: 200%;
 
 }
 
@@ -55,12 +55,12 @@ hr{
     right: 12%;
     text-align: center;
     position: fixed;
-    font-size: 150%;
+    font-size: 200%;
 }
 
 .fondo_nm{
   width: 90%;
-  height: 10%;
+  height: 8%;
   background-color:rgb(206, 206, 206);
   position: fixed;
   top: 0;
@@ -109,7 +109,8 @@ hr{
 footer{
 
     position: absolute;
-    top: 300%;
+    top: 260%;
+    left: 15%;
 
 }
 
@@ -117,5 +118,19 @@ input{
 
 
     font-size: 200%;
+
+}
+
+.socials{
+
+    text-align: center;
+    width: 400%;
+
+}
+
+.links{
+
+    width: 20%;
+
 
 }
