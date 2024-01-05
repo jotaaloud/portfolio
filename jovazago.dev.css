@@ -154,3 +154,16 @@ table{
 
     max-width: 600px;
 }
+
+a{
+    color: black;
+}
+
+a:hover {
+    color: black;
+  }
+  
+  a:active {
+    color: black;
+  }
+
