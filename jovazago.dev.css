@@ -171,29 +171,33 @@ a:active {
     color: black;
 }
 
+
+
+
+
 @media screen and (max-width: 1000px) {   /*Estas reglas son solo para movil*/
     #about {
-        font-size: 70%;
+        font-size: 6vw;
     }
 
     h1 {
-        font-size: 130%;
+        font-size: 8vw;
     }
 
     .subt {
-        font-size: 50%;
+        font-size: 3vw;
     }
 
 
     .nickname , .menu{
 
-        font-size: 55%;
+        font-size: 3.2vw;
     }
 
     .fondo_nm{
 
         width: 100%;
-        height: 26px;
+        height: 10vw;
         background-color:rgb(206, 206, 206);
         position: fixed;
         top: 0;
@@ -207,7 +211,7 @@ a:active {
         position: absolute;
         width: 100%;
         background-color: black;
-        top: 67%;
+        top: 7vw;
     }
 
     .links{
@@ -232,5 +236,7 @@ a:active {
         overflow-y: visible;
         overflow-x: hidden;
     }
+
+  
 
 }
