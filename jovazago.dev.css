@@ -171,7 +171,7 @@ a:active {
     color: black;
 }
 
-@media screen and (max-width: 700px) {   /*Estas reglas son solo para movil*/
+@media screen and (max-width: 1000px) {   /*Estas reglas son solo para movil*/
     #about {
         font-size: 70%;
     }
@@ -192,12 +192,12 @@ a:active {
 
     .fondo_nm{
 
-        width: 90%;
+        width: 100%;
         height: 26px;
         background-color:rgb(206, 206, 206);
         position: fixed;
         top: 0;
-        left: 5%;
+        left: 0%;
         z-index: 1;
 
     }
@@ -221,6 +221,16 @@ a:active {
         width: 80%;
     }
     
-
+    .fondo_web{
+        position: absolute;
+        right: 0%;
+        left: 0%;
+        top: 0%;
+        bottom: 0%;
+        background-color: rgba(255, 255, 255, 0.8);
+        overflow: auto;
+        overflow-y: visible;
+        overflow-x: hidden;
+    }
 
 }
