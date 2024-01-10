@@ -177,15 +177,15 @@ a:active {
 
 @media screen and (max-width: 1000px) {   /*Estas reglas son solo para movil*/
     #about {
-        font-size: 16vw;
+        font-size: 8vw;
     }
 
     h1 {
-        font-size: 25vw;
+        font-size: 16vw;
     }
 
     .subt {
-        font-size: 11vw;
+        font-size: 8vw;
     }
 
 
