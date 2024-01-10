@@ -6,7 +6,7 @@ html{
 
 h1{
 
-    font-size: 90px;
+    font-size: 300%;
 
 }
 
@@ -15,7 +15,7 @@ h1{
 .subt{
 
 
-    font-size: 200%;
+    font-size: 150%;
 
 }
 
@@ -23,7 +23,7 @@ hr{
     position: absolute;
     width: 100%;
     background-color: black;
-    top: 90%;
+    top: 84%;
 
 
 }
@@ -38,15 +38,18 @@ hr{
     overflow: auto;
     overflow-y: visible;
     overflow-x: hidden;
-    
+
+
 }
 
 .nickname{
 
     text-align: start;
-    position: fixed;
+    position: absolute;
     left:12%;
-    font-size: 200%;
+    font-size: 100%;
+
+    
 
 
 }
@@ -57,12 +60,12 @@ hr{
     right: 12%;
     text-align: center;
     position: fixed;
-    font-size: 200%;
+    font-size: 100%;
 }
 
 .fondo_nm{
   width: 90%;
-  height: 100px;
+  height: 50px;
   background-color:rgb(206, 206, 206);
   position: fixed;
   top: 0;
@@ -100,7 +103,7 @@ hr{
     top: 100%;
     text-align: left;
     text-overflow: initial;
-    font-size: 200%;
+    font-size: 120%;
     left: 0%;
     right: 0%;
     width: 90%;
@@ -122,14 +125,15 @@ footer{
 input{
 
 
-    font-size: 200%;
+    font-size: 100%;
+  
 
 }
 
 
 .links{
 
-    width: 150px;
+    width: 5%;
 
 
 }
@@ -161,9 +165,62 @@ a{
 
 a:hover {
     color: black;
-  }
+}
   
-  a:active {
+a:active {
     color: black;
-  }
+}
 
+@media screen and (max-width: 700px) {   /*Estas reglas son solo para movil*/
+    #about {
+        font-size: 70%;
+    }
+
+    h1 {
+        font-size: 130%;
+    }
+
+    .subt {
+        font-size: 50%;
+    }
+
+
+    .nickname , .menu{
+
+        font-size: 55%;
+    }
+
+    .fondo_nm{
+
+        width: 90%;
+        height: 26px;
+        background-color:rgb(206, 206, 206);
+        position: fixed;
+        top: 0;
+        left: 5%;
+        z-index: 1;
+
+    }
+
+
+    hr{
+        position: absolute;
+        width: 100%;
+        background-color: black;
+        top: 67%;
+    }
+
+    .links{
+
+        width: 18%;
+
+    }
+
+    .input{
+
+        width: 80%;
+    }
+    
+
+
+}
