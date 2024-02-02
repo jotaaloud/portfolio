@@ -267,7 +267,7 @@ body{
     z-index: 3;
 }
 
-@media screen and (max-width: 800px) {   /*Estas reglas son solo para movil*/
+@media screen and (max-width: 700px) {   /*Estas reglas son solo para movil*/
     .ideas {
         position: absolute;
         left: 23%;
