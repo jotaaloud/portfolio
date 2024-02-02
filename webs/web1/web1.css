@@ -270,7 +270,7 @@ body{
 @media screen and (max-width: 800px) {   /*Estas reglas son solo para movil*/
     .ideas {
         position: absolute;
-        left: 22%;
+        left: 23%;
         top: 10%;
         font-size: 8vw;
     }
@@ -300,8 +300,8 @@ body{
     }
     #logo{
     position: absolute;
-    top: 80px;
-    left: 2%;
+    top: 60px;
+    left: 10px;
     padding-top: 0%;
     background-color: rgb(255, 255, 255);
     color: orange;
