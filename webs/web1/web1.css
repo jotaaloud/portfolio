@@ -283,4 +283,21 @@ body{
         left: 5px;
 
     }
+
+
+    .menu{
+        background-color: white;
+        font-size: 13px;
+        word-spacing: 10px;
+        text-align: end;
+        height: 4%;
+        padding-top: 15px;
+        width: 320px;
+        position: absolute;
+        right: 70px;
+        top: 3px;
+        z-index: 1;
+    }
+
+    
 }
