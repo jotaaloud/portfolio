@@ -266,3 +266,12 @@ body{
     background-color: white;
     z-index: 3;
 }
+
+
+@media screen and (max-width: 800px) {   /*Estas reglas son solo para movil*/
+    .ideas {
+        font-size: 8vw;
+    }
+}
+
+
