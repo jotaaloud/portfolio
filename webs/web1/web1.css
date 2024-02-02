@@ -108,7 +108,7 @@ body{
     position: absolute;
     left: 20%;
     top: 10%;
-    font-size: 48px;
+    font-size: 60px;
 }
 
 .girl{
@@ -267,11 +267,20 @@ body{
     z-index: 3;
 }
 
-
 @media screen and (max-width: 800px) {   /*Estas reglas son solo para movil*/
     .ideas {
+        position: absolute;
+        left: 22%;
+        top: 10%;
         font-size: 8vw;
     }
+
+    .underthird{
+        position: relative;
+        width: 50%;
+        z-index: 2;
+        top: 530px;
+        left: 5px;
+
+    }
 }
-
-
