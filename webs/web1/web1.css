@@ -8,7 +8,7 @@ body{
     font-size: 13px;
     word-spacing: 20px;
     text-align: end;
-    height: 4%;
+    height: 30px;
     padding-top: 15px;
     width: 350px;
     position: absolute;
@@ -33,7 +33,7 @@ body{
 
 .first{
     background-color:#d8f89d;
-    width: 85%;
+    width: 90%;
     top: 54px;/*8%*/
     position: absolute;
     left: 1%;
@@ -293,7 +293,7 @@ body{
         font-size: 13px;
         word-spacing: 10px;
         text-align: end;
-        height: 4%;
+        height: 30px;
         padding-top: 15px;
         width: 320px;
         position: absolute;
