@@ -207,15 +207,14 @@ body{
     position: absolute;
     top: 1%;
     left: 1%;
-    padding-top: 0%;
     background-color: rgb(255, 255, 255);
     color: orange;
     border-radius: 25%;
     border: 1px solid rgb(160, 160, 160);
-    padding-left: 9px;
+    padding-left: 7px;
     padding-top: 9px;
-    width: 24px;
-    height: 29px;
+    width: 26px;
+    height: 26px;
     z-index: 1;
 }
 
@@ -225,14 +224,15 @@ body{
     font-size: 18px;
     color: white;
     width: 30px;
-    height: 30px;
+    height: 28px;
     padding-left: 6px;
-    padding-top: 6px;
+    padding-top: 9px;
     border: 2px solid white;
     border-radius: 10px;
     position: absolute;
     top: 70px;
     left: 6px;
+    z-index: 7;
 }
 
 #be{
@@ -245,6 +245,8 @@ body{
     padding-top: 8px;
     border-radius: 10px;
     text-align: left;
+    z-index: 3;
+    position: absolute;
     
 }
 
@@ -252,8 +254,8 @@ body{
     position: relative;
     width: 40%;
     z-index: 2;
-    top: 480px;
-    left: 5px;
+    top: 420px;
+    left: 2%;
 }
 
 .trampa{
@@ -278,7 +280,6 @@ body{
     .underthird{
         position: relative;
         width: 50%;
-        z-index: 2;
         top: 530px;
         left: 5px;
 
@@ -302,15 +303,6 @@ body{
     position: absolute;
     top: 60px;
     left: 10px;
-    padding-top: 0%;
-    background-color: rgb(255, 255, 255);
-    color: orange;
-    border-radius: 25%;
-    border: 1px solid rgb(160, 160, 160);
-    padding-left: 9px;
-    padding-top: 9px;
-    width: 24px;
-    height: 29px;
     z-index: 1;
     }
     
