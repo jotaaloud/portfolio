@@ -5,15 +5,15 @@
 
 
  <circle cx="14%" cy="160" r="50" 
- fill="#e9fcb3" stroke="#e9fcb3"/>
+ fill="#d4dea6" stroke="#d4dea6"/>
 
  <circle cx="30%" cy="190" r="20" 
- fill="#e9fcb3" stroke="#e9fcb3"/>
+ fill="#d4dea6" stroke="#d4dea6"/>
 
  <circle cx="85%" cy="65" r="10" 
  fill="white" stroke="white"/>
 
  <circle cx="90%" cy="90" r="20" 
- fill="#e9fcb3" stroke="#e9fcb3"/>
+ fill="#d4dea6" stroke="#d4dea6"/>
 
 </svg>
