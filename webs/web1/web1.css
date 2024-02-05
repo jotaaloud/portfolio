@@ -32,7 +32,7 @@ body{
 }
 
 .first{
-    background-color:#d8f89d;
+    background-color:#effbac;
     width: 90%;
     top: 54px;/*8%*/
     position: absolute;
@@ -56,7 +56,7 @@ body{
 }
 
 .third{
-    background-color: #8f9e4c;
+    background-color: #bbc68a;
     width: 48%;
     position: absolute;
     left: 1%;
@@ -164,7 +164,7 @@ body{
     width: 70px;
     height: 140px;
     top: 22%;
-    background-image: linear-gradient(to bottom, rgba(255,255,255,0), #d8f89d);
+    background-image: linear-gradient(to bottom, rgba(255,255,255,0), #effbac);
 }
 
 #algo{
