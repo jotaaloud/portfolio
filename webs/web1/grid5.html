@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="gridcss.css">
+    <style>
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .box {
+            width: 49%;
+            height: 400px;
+        }
+        .box:first-child {
+            width: 100%;
+            height: 50px;
+        }
+        @media (max-width: 1000px) {
+            .box {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box" style="background-color: white; border: 1px solid black; border-radius: 0%;">
+            <p class="menu"><b>Home <span style="color: grey;">Services About News Responibility</span> Contact</b></p>
+        </div>
+        <div class="box" id="box1">
+            <div class="turn"><span style="font-size: 170%; color: #a2ab71;">TURN</span></br></br>We Specialize In Creating Complex Tools For Bussiness And</div>
+            <div id="tapar"></div>
+            <div class="ideas"><b><span style="color: #a2ab71;">Ideas INTO</span> </br>REALITY</b></div>
+            <div class="choose"><p>Choose Your Category</p></div>
+            <div class="election" id="one">All</div>
+            <div class="election" id="two">Automotive</div>
+            <div class="election" id="three">Bussiness Support & Supplies</div>
+        </div>
+        <div class="box" style="background: linear-gradient(to right,rgba(255,255,255),#d9d071);">
+            <img src="../images/algo.svg" id="algo">
+        </div>
+        <div class="box" style="background-color: #bbc68a; height: 160px;" >4</div>
+        <div class="box" style="background-color: #f0f0f0; height: 160px; overflow: hidden;">
+              <div id="peq">Everything <span style="font-size: 140%;">20</span></div>
+            <img src="../images/undergirl.svg" class="undergirl">
+            <img src="../images/girlphone.jpg" class="girl">
+        </div>
+    </div>
+</body>
+</html>
