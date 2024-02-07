@@ -15,16 +15,9 @@
 }
 
 
-#box0{
-    position: sticky;
-    width: 100%;
-    background-color: black;
-    top: 0%;
-}
 
 #box1{
     background-color:#effbac;
-    max-width: 1300px;
 }
 
 #box2{
@@ -35,6 +28,7 @@
 #box3{
     background-color: #bbc68a;
     height: 200px;
+    width: 100%;
 }
 
 #box4{
@@ -49,6 +43,7 @@ body{
     background-color: white;
     font-family: Arial, Helvetica, sans-serif;
     text-transform: capitalize;
+    font-size: 14px;
 }
 
 .menu{
@@ -58,26 +53,22 @@ body{
     text-align: end;
     height: 30px;
     padding-top: 15px;
-    width: 450px;
+    width: 470px;
     position: absolute;
     right: 20px;
-    top: 0px;
+    top: -10px;
     z-index: 1;
 }
 
 #contact{
     background-color: #e3f89d;
     color: black;
-    text-align: right;
     border-radius: 20px;
-    position: absolute;
     height: 16px;
-    right: 6px;
     padding-top: 1px;
     padding-left: 5px;
     padding-right: 5px;
-    font-size: 13px;
-    top: 17px;
+    padding-bottom: 1px;
 }
 
 .first{
@@ -129,18 +120,6 @@ body{
     overflow: hidden;
 }
 
-.started{
-    background-color: white;
-    font-size: 14px;
-    width: 72px;
-    position: relative;
-    left: 0%;
-    padding-left: 1%;
-    padding-right: 1%;
-    height: 22px;
-    border-radius: 20px;
-    top: -200px;
-}
 
 #wesolve{
 
@@ -155,9 +134,21 @@ body{
 
 }
 
-.box3.started{
-    color: black;
+
+
+.started{
+    position: relative;
+    z-index: 2;
+    top: 50px;
+    left: -20px;
+    font-size: 14px;
+    background-color: white;
+    min-width: 74px;
+    padding-inline: 10px;
+    border-radius: 20px;
 }
+
+
 
 .turn{
     position: absolute;
@@ -169,11 +160,10 @@ body{
 
 #peq{
     position: relative;
-    left: 80px;
-    background-color: orange;
-    width: 400px;
-    font-size: 30px;
-    padding-right: 80px;
+    left: 200px;
+    top: -40px;
+    font-size: 20px;
+    min-width: 200px;
 }
 
 .ideas{
@@ -187,13 +177,13 @@ body{
     height: 140px;
     position: relative;
     bottom: -20px;
-    right: -26px;
+    right: 170px;
     z-index: 4;
 }
 
 .undergirl{
     position: relative;
-    right: -240px;
+    right: -40px;
     bottom: -30px;
     width: 240px;
     z-index: 1;
@@ -201,14 +191,14 @@ body{
 
 .choose{
     position: absolute;
-    top: 380px;
+    top: 360px;
     left:18px;
     font-size: 60%;
 }
 
 .election{
     position: absolute;
-    top: 440px;
+    top: 410px;
     border-radius: 20px;
     font-size: 14px;
     padding-left: 5px;
@@ -242,22 +232,22 @@ body{
 
 #algo{
     position: relative;
-    left: -200px;
+    left: -240px;
     top: 0%;
     width: 90px;
 }
 
 #puzzle{
     position: relative;
-    left: -320px;
-    top:0%;
+    left: -180px;
+    top:0;
     z-index: 1;
     width: 38px;
 }
 
 #solutions{
     position: relative;
-    left: -16%;
+    left: 40px;
     top: 0%;
     z-index: 1;
     width: 90px;
@@ -267,11 +257,11 @@ body{
     position: relative;
     font-size: 12px;
     text-align: left;
-    right: 0%;
-    top: 0%;
+    right: -40px;
+    top: 60px;
     z-index: 1;
     padding-left: 0px;
-    width: 70px;
+    width: 80px;
     background: linear-gradient(to bottom,rgba(0,0,0),#d9d071);
     -webkit-background-clip: text;
     background-clip: text;
@@ -280,8 +270,9 @@ body{
 
 #logo{
     position: absolute;
+    font-size: 17px;
     top: 1%;
-    left: 1%;
+    left: 10px;
     background-color: rgb(255, 255, 255);
     color: orange;
     border-radius: 25%;
@@ -304,15 +295,17 @@ body{
     padding-top: 9px;
     border: 2px solid white;
     border-radius: 10px;
-    position: absolute;
-    top: 70px;
-    left: 6px;
+    position: relative;
+    top: 40px;
+    left: -104px;
     z-index: 3;
 
 }
 
 #be{
     background-color: orange;
+    top: 40px;
+    left: 20px;
     font-size: 10px;
     color: white;
     width: 80px;
@@ -322,16 +315,39 @@ body{
     border-radius: 10px;
     text-align: left;
     z-index: 2;
-    position: absolute;
+    position: relative;
     
 }
 
 .underthird{
     position: relative;
-    width: 40%;
+    width: 80%;
+    z-index: 1;
+    top: 10%;
+    left: -220px;
+}
+
+#fp{
+    position: relative;
     z-index: 2;
-    top: 50%;
-    left: 2%;
+    font-size: 16px;
+    top: -40px;
+    left: 350px;
+    color: white;
+    min-width: 190px;
+    text-align: center;
+
+}
+
+#sp{
+    position: relative;
+    z-index: 2;
+    font-size: 16px;
+    top: 10px;
+    left: 150px;
+    min-width: 240px;
+    color: white;
+
 }
 
 .trampa{
@@ -344,6 +360,8 @@ body{
     background-color: white;
     z-index: 3;
 }
+
+
 
 
 
