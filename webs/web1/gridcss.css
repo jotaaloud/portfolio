@@ -1,0 +1,349 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(500px,1fr));
+    gap: 1rem;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    font-size: 2em;
+    border-radius: 20px;
+    background-color: grey;
+}
+
+
+#box0{
+    position: sticky;
+    width: 100%;
+    background-color: black;
+    top: 0%;
+}
+
+#box1{
+    background-color:#effbac;
+    max-width: 1300px;
+}
+
+#box2{
+    background: linear-gradient(to right,rgba(255,255,255),#d9d071);
+    align-self: flex-end;
+}
+
+#box3{
+    background-color: #bbc68a;
+    height: 200px;
+}
+
+#box4{
+    height: 200px;
+
+}
+
+
+
+
+body{
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+}
+
+.menu{
+    background-color: white;
+    font-size: 13px;
+    word-spacing: 20px;
+    text-align: end;
+    height: 30px;
+    padding-top: 15px;
+    width: 450px;
+    position: absolute;
+    right: 20px;
+    top: 0px;
+    z-index: 1;
+}
+
+#contact{
+    background-color: #e3f89d;
+    color: black;
+    text-align: right;
+    border-radius: 20px;
+    position: absolute;
+    height: 16px;
+    right: 6px;
+    padding-top: 1px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 13px;
+    top: 17px;
+}
+
+.first{
+    background-color:#effbac;
+    width: 90%;
+    top: 54px;/*8%*/
+    position: absolute;
+    left: 1%;
+    font-size: 30px;
+    padding-left: 3%;
+    height: 410px;
+    border-radius:20px;   
+}
+
+.second{
+    background: linear-gradient(to right,rgba(255,255,255),#d9d071);
+    /*background-color: #d9d071;*/
+    width: 23%;
+    min-width: 130px;
+    top: 54px;
+    position: absolute;
+    right: 1%;
+    height: 410px;
+    border-radius: 20px;    
+}
+
+.third{
+    background-color: #bbc68a;
+    width: 48%;
+    position: absolute;
+    left: 1%;
+    padding-left: 1%;
+    height: 170px;
+    border-radius: 20px;
+    top: 480px;/*71%*/
+    color: white;
+    text-align: center;
+    overflow:hidden
+}
+
+.fourth{
+    background-color: #f0f0f0;
+    width: 48.5%;
+    position: absolute;
+    right: 1%;
+    height: 170px;
+    border-radius: 20px;
+    top: 480px; 
+    overflow: hidden;
+}
+
+.started{
+    background-color: white;
+    font-size: 14px;
+    width: 72px;
+    position: relative;
+    left: 0%;
+    padding-left: 1%;
+    padding-right: 1%;
+    height: 22px;
+    border-radius: 20px;
+    top: -200px;
+}
+
+#wesolve{
+
+    position: relative;
+    top: -30%;
+    left: 20%;
+
+}
+
+#wehelpers{
+
+
+}
+
+.box3.started{
+    color: black;
+}
+
+.turn{
+    position: absolute;
+    font-size: 45%;
+    width: 70px;
+    left: 20px;
+    top: 120px;
+}
+
+#peq{
+    position: relative;
+    left: 80px;
+    background-color: orange;
+    width: 400px;
+    font-size: 30px;
+    padding-right: 80px;
+}
+
+.ideas{
+    position: absolute;
+    left: 100px;
+    top: 110px;
+    font-size: 60px;
+}
+
+.girl{
+    height: 140px;
+    position: relative;
+    bottom: -20px;
+    right: -26px;
+    z-index: 4;
+}
+
+.undergirl{
+    position: relative;
+    right: -240px;
+    bottom: -30px;
+    width: 240px;
+    z-index: 1;
+}
+
+.choose{
+    position: absolute;
+    top: 380px;
+    left:18px;
+    font-size: 60%;
+}
+
+.election{
+    position: absolute;
+    top: 440px;
+    border-radius: 20px;
+    font-size: 14px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#one{
+    background-color: black;
+    color: white;
+    left: 18px;
+}
+
+#two{
+    left: 55px;
+    background-color: white;
+}
+
+#three{
+    left: 140px;
+    background-color: white;
+}
+
+#tapar{
+    position: absolute;
+    width: 70px;
+    height: 140px;
+    top: 160px;
+    left: 20px;
+    background-image: linear-gradient(to bottom, rgba(255,255,255,0), #effbac);
+}
+
+#algo{
+    position: relative;
+    left: -200px;
+    top: 0%;
+    width: 90px;
+}
+
+#puzzle{
+    position: relative;
+    left: -320px;
+    top:0%;
+    z-index: 1;
+    width: 38px;
+}
+
+#solutions{
+    position: relative;
+    left: -16%;
+    top: 0%;
+    z-index: 1;
+    width: 90px;
+}
+
+#everything{
+    position: relative;
+    font-size: 12px;
+    text-align: left;
+    right: 0%;
+    top: 0%;
+    z-index: 1;
+    padding-left: 0px;
+    width: 70px;
+    background: linear-gradient(to bottom,rgba(0,0,0),#d9d071);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#logo{
+    position: absolute;
+    top: 1%;
+    left: 1%;
+    background-color: rgb(255, 255, 255);
+    color: orange;
+    border-radius: 25%;
+    border: 1px solid rgb(160, 160, 160);
+    padding-left: 7px;
+    padding-top: 9px;
+    width: 26px;
+    height: 26px;
+    z-index: 1;
+}
+
+
+.letritas{
+    background-color: orange;
+    font-size: 18px;
+    color: white;
+    width: 30px;
+    height: 28px;
+    padding-left: 6px;
+    padding-top: 9px;
+    border: 2px solid white;
+    border-radius: 10px;
+    position: absolute;
+    top: 70px;
+    left: 6px;
+    z-index: 3;
+
+}
+
+#be{
+    background-color: orange;
+    font-size: 10px;
+    color: white;
+    width: 80px;
+    height: 40px;
+    padding-left: 50px;
+    padding-top: 8px;
+    border-radius: 10px;
+    text-align: left;
+    z-index: 2;
+    position: absolute;
+    
+}
+
+.underthird{
+    position: relative;
+    width: 40%;
+    z-index: 2;
+    top: 50%;
+    left: 2%;
+}
+
+.trampa{
+    position: absolute;
+    top: 650px;
+    left: 0px;
+    width: 50%;
+    height: 400px;
+    color: white;
+    background-color: white;
+    z-index: 3;
+}
+
+
+
