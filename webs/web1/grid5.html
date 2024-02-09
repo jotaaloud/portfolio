@@ -6,7 +6,7 @@
     <style>
         
         .box {
-            width: 48%;
+            width: 47%;
             height: 410px;
             overflow: hidden;
         }
@@ -14,12 +14,15 @@
             width: 100%;
             height: 30px;
         }
-        @media (max-width: 400px) {
+        @media (max-width: 640px) {
             .box , #box1, #box2{
                 width: 100%;
 
             }
             
+            .container{
+                gap: 0.5rem;
+            }
 
             #logo{
                 top: 60px;
@@ -43,31 +46,27 @@
             <div class="election" id="two">Automotive</div>
             <div class="election" id="three">Bussiness Support & Supplies</div>
         </div>
-        <div class="box" style="background: linear-gradient(to right,rgba(255,255,255),#d9d071);">
-            <div id="solutions">
-                <p>Solutions</p>
-            </div>
+        <div class="box" id="box2" style="background: linear-gradient(to right,rgba(255,255,255),#d9d071);">
             <div id="everything">
+                <p style="font-size: 130%;"><b>Solutions</b></p>
                 <p>Everything geared to your bussyness needs.</p>
             </div> 
-            <img src="images/puzzle.png" id="puzzle">
-            <img src="images/algo.svg" id="algo">
+            <img src="../images/puzzle.png" id="puzzle">
+            <img src="../images/algo.svg" id="algo">
         </div>
         <div class="box" style="background-color: #bbc68a; height: 160px;" >
             <div id="fp"><p style="font-size: 120%;"><b>We solve any tasks </br>with no limits</b></p></div>
             <div id="sp"><p style="font-size: 70%;">We helpers team that grows your business</p></div>
             <div class="started">Get started</div>
-            <img src="images/thirdellipses.svg" class="underthird">
+            <img src="../images/thirdellipses.svg" class="underthird">
         </div>
         <div class="box" style="background-color: #f0f0f0; height: 160px; overflow: hidden;">
               <div id="peq">Everything <span style="font-size: 280%;">20</span></div>
               <div><p id="be">Everything geared to your bussiness needs</p></div>
               <div><p class="letritas">Be</p></div>
-            <img src="images/undergirl.svg" class="undergirl">
-            <img src="images/girlphone.jpg" class="girl">
+            <img src="../images/undergirl.svg" class="undergirl">
+            <img src="../images/girlphone.jpg" class="girl">
         </div>
     </div>
 </body>
 </html>
-
-
