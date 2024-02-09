@@ -229,14 +229,14 @@ body{
 
 #algo{
     position: relative;
-    right: 140px;
+    right: 110px;
     top: 0%;
     width: 90px;
 }
 
 #puzzle{
     position: relative;
-    left: -80px;
+    left: -50px;
     top:0;
     z-index: 1;
     width: 38px;
@@ -254,7 +254,7 @@ body{
     position: relative;
     font-size: 12px;
     text-align: left;
-    right: -50px;
+    right: -80px;
     top: 60px;
     margin-bottom: 100px;
     z-index: 1;
