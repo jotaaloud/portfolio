@@ -2,7 +2,7 @@
 .container {
     display: flex;
     flex-wrap: wrap;
-    grid-template-columns: repeat(auto-fit,minmax(0px,1fr));
+    grid-template-columns: repeat(auto-fit,minmax(600px,1fr));
     gap: 1rem;
 
 }
@@ -29,10 +29,12 @@
 
 #box1{
     background-color:#effbac;
+    width: 69%;
 }
 
 #box2{
     background: linear-gradient(to right,rgba(255,255,255),#d9d071);
+    width: 25%;
 }
 
 #box3{
@@ -155,7 +157,7 @@ body{
 
 #peq{
     position: relative;
-    left: 200px;
+    right: -220px;
     top: -40px;
     font-size: 20px;
     min-width: 200px;
@@ -227,14 +229,14 @@ body{
 
 #algo{
     position: relative;
-    left: -240px;
+    right: 140px;
     top: 0%;
     width: 90px;
 }
 
 #puzzle{
     position: relative;
-    left: -180px;
+    left: -80px;
     top:0;
     z-index: 1;
     width: 38px;
@@ -242,7 +244,7 @@ body{
 
 #solutions{
     position: relative;
-    left: 40px;
+    left: 46%;
     top: 0%;
     z-index: 1;
     width: 90px;
@@ -252,8 +254,9 @@ body{
     position: relative;
     font-size: 12px;
     text-align: left;
-    right: -40px;
+    right: -50px;
     top: 60px;
+    margin-bottom: 100px;
     z-index: 1;
     padding-left: 0px;
     width: 80px;
@@ -345,16 +348,8 @@ body{
 
 }
 
-.trampa{
-    position: absolute;
-    top: 650px;
-    left: 0px;
-    width: 50%;
-    height: 400px;
-    color: white;
-    background-color: white;
-    z-index: 3;
-}
+
+
 
 
 
