@@ -1,8 +1,4 @@
 
-  
-
-
-
 .container {
     display: flex;
     flex-wrap: wrap;
@@ -43,7 +39,10 @@
 
 #box3{
     justify-content: none;
-    align-items: left;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    position: relative;
 }
 
 #box4{
@@ -105,6 +104,7 @@ body{
     top: -30px;
     font-size: 20px;
     min-width: 200px;
+    z-index: 2;
 }
 
 .ideas{
@@ -116,16 +116,16 @@ body{
 
 .girl{
     height: 140px;
-    position: relative;
-    bottom: -20px;
-    right: 400px;
+    position: absolute;
+    top: 20px;  /*bottom: -20px;*/
+    right: -20px;   /*right: 400px;*/
     z-index: 4;
 }
 
 .undergirl{
-    position: relative;
-    right: 180px;
-    bottom: -30px;
+    position: absolute;
+    right: -60px;
+    bottom: -10px;
     width: 240px;
     z-index: 1;
 }
@@ -254,22 +254,22 @@ body{
 }
 
 .underthird{
-    position: relative;
+    position: absolute;
     height: 140%;
     z-index: 1;
-    top: 20%;
-    left: -200px;
+    top: 4%;
+    left: 6%;
 }
 
 #fp{
-    position: relative;
+    position: absolute;
     z-index: 2;
     font-size: 16px;
     top: -0px;
-    left: 21%;
     color: white;
     min-width: 240px;
     text-align: center;
+    left: 20%;
 
 }
 
@@ -285,12 +285,3 @@ body{
     border-radius: 20px;
     left: 74px;
 }
-
-
-
-
-
-
-
-
-
