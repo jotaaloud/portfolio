@@ -14,7 +14,7 @@
 
 
 .box{
-    width: 49%;
+    width: 48%;
     height: 410px;
     overflow: hidden;
     display: flex;
@@ -28,7 +28,7 @@
 
 #box1{
     background-color:#effbac;
-    width: 73%;
+    width: 71%;
 }
 
 #box2{
