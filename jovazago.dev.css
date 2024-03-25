@@ -1,22 +1,16 @@
 
 html{
-
     scroll-behavior: smooth;
 }
 
 h1{
-
     font-size: 300%;
-
 }
 
 
 
 .subt{
-
-
     font-size: 150%;
-
 }
 
 hr{
@@ -38,8 +32,6 @@ hr{
     overflow: auto;
     overflow-y: visible;
     overflow-x: hidden;
-
-
 }
 
 .nickname{
@@ -48,10 +40,6 @@ hr{
     position: absolute;
     left:12%;
     font-size: 100%;
-
-    
-
-
 }
 
 
@@ -71,7 +59,6 @@ hr{
   top: 0;
   left: 5%;
   z-index: 1;
-
 }
 
 
@@ -79,9 +66,6 @@ hr{
     position: relative;
     top: 40%;
     scroll-margin-top: 900px;
-   
-
-
 }
 
 
@@ -89,16 +73,12 @@ hr{
 
 
 .form{
-
     position: relative;
     left: 0%;
     top: 180%;
-
-
 }
 
 .about{
-
     position: relative;
     top: 100%;
     text-align: left;
@@ -112,31 +92,28 @@ hr{
     max-height: 100%;
 }
 
-footer{
 
+footer{
     position: relative;
     top: 190%;
     width: 100%;
- 
-
-
 }
 
 input{
-
-
     font-size: 100%;
-  
-
 }
 
 
 .links{
-
     width: 5%;
-
-
 }
+
+.links:hover{
+    /*filter: brightness(1);*/
+    /*background-color: white;*/
+    filter: invert(100%);
+}
+
 
 .bajo_tabla{
     position: relative;
@@ -145,17 +122,13 @@ input{
     width: 80%;
     max-width: 600px;
     text-align: start;
-    
-
 }
 
 .nombre_cv{
-
     font-size: 30px;
 }
 
 table{
-
     max-width: 600px;
 }
 
@@ -216,9 +189,7 @@ a:active {
     }
 
     .links{
-
         width: 18%;
-
     }
 
     .input{
