@@ -80,6 +80,11 @@ body{
     padding-bottom: 1px;
 }
 
+#contact:hover{
+    border: 2px solid #788452;
+}
+
+
 #wesolve{
 
     position: relative;
@@ -152,14 +157,29 @@ body{
     left: 18px;
 }
 
+#one:hover{
+    color:black;
+    background-color: white;
+}
+
 #two{
     left: 55px;
     background-color: white;
 }
 
+#two:hover{
+    color:white;
+    background-color: black;
+}
+
 #three{
     left: 140px;
     background-color: white;
+}
+
+#three:hover{
+    color:white;
+    background-color: black;
 }
 
 #tapar{
