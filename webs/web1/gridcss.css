@@ -4,7 +4,6 @@
     flex-wrap: wrap;
     grid-template-columns: repeat(auto-fit,minmax(600px,1fr));
     gap: 1rem;
-
 }
 
 .box:first-child {
@@ -86,13 +85,10 @@ body{
 
 
 #wesolve{
-
     position: relative;
     top: -30%;
     left: 20%;
-
 }
-
 
 
 .turn{
@@ -253,7 +249,6 @@ body{
     top: 40px;
     left: -300px;
     z-index: 3;
-
 }
 
 #be{
@@ -296,7 +291,6 @@ body{
 
 .started{
     position: relative;
-
     font-size: 14px;
     background-color: white;
     color: black;
@@ -304,4 +298,8 @@ body{
     padding-inline: 10px;
     border-radius: 20px;
     left: 74px;
+}
+
+.started:hover{
+    border: 1px solid black;
 }
