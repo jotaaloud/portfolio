@@ -1,0 +1,545 @@
+@media screen and (max-width:2000px){
+
+    .menu-icon{
+        display: none;
+        width: 60px;
+        height: 60px;
+        top: 20px;
+        right: 20px;
+    }
+
+    #profile{
+        background-image: url(images/logojl.JPG);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    #menu{
+        display:inline;
+        visibility: visible;
+        word-spacing: 30px;
+        width: 420px;
+        height: 20px;
+        right: 0px;
+        top: 4px;
+        border: none;
+    }
+
+    #menu p{
+        display: inline;
+    }
+
+    #maindish{
+        position: relative;
+        left: 30px;
+        background-color: black;
+        width: 330px;
+        height: 510px;
+        font-size: 32px;
+        font-weight: 700;
+    }
+
+    #maindish img{
+        left: -10px;
+        top:60px;
+        width: 360px;
+    }
+
+    #maindishdescription{
+        width: 19%;
+        height: 180px;
+        top: 270px;
+        left: 400px;
+    }
+
+    #maindishdescription p{
+        font-size: 14px;
+    }
+
+    h2{
+        font-size: 30px;
+    }
+
+    #boton{
+        margin-left: 40%;
+        padding-inline: 10px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        border-radius: 2px;
+        font-size: 10px;
+    }
+
+    #maindishprize{
+        color: red;
+        font-weight: 700;
+        font-size: 14px;
+    }
+
+    #menuimg{
+        display: none;
+    }
+
+    #more{
+        padding-top: 60px;
+        top: -480px;
+        left: 53%;
+        width: 45%;
+        height: 570px; /* Ajusta esto a la altura que desees para el nodo padre */
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        grid-template-columns: none; /* Ajusta 100px al ancho mínimo que desees para los hijos */
+        grid-auto-rows: none; /* Ajusta esto a la altura que desees para los hijos */
+        grid-row-gap:60px;
+        grid-column-gap: 40px;
+        overflow-x: hidden;
+        overflow-y: scroll;
+    }
+
+    .sidedish{
+        width: 130px;
+        height: 130px;
+        padding: 0px;
+
+    }
+
+    .sidedish .sdtitle{
+        position: relative;
+        top: -60px;
+        margin-left: 10%;
+        color: #FFFFFF;
+        width: 80%;
+        font-size: 14px;
+    }
+
+    .sidedish img{
+        position: relative;
+        top: -40px;
+        margin-left: 10%;
+        margin-right: 0%;
+        width: 80%;
+    }
+
+    .menu-icon .line {
+        transition: all 0.3s ease;
+    }
+
+    #profile img{
+        width: 16px;
+        position: relative;
+        visibility: hidden;
+        margin-inline: 7px;
+        top: 4px;
+    }
+}
+
+@media screen and (max-width:1180px){   /*en 1200px*/
+
+    .menu-icon{
+        display: block;
+        width: 60px;
+        height: 60px;
+        top: 20px;
+        right: 20px;
+    }
+
+    #menu{
+        display: none;
+        border: 2px solid rgb(0, 0, 0);
+        background-color: rgba(0, 0, 0, 0.089);
+        border-radius: 10%;
+        padding-left: 10px;
+        height: 130px;
+        top: 4px;
+        left: none;
+        right: 80px;
+        width: 20%;
+        transition: opacity 0.3s;
+    }
+
+    #menu p{
+        display: block;
+    }
+
+    #maindish{
+        left: 0px;
+        background-color: black;
+        width: 240px;
+        height: 410px;
+        font-size: 32px;
+        font-weight: 700;
+    }
+
+    #maindish img{
+        left: -10px;
+        top: 60px;
+        width: 260px;
+    }
+
+    #maindishdescription{
+        width: 39%;
+        height: 180px;
+        top: 200px;
+        left: 280px;
+    }
+
+    #maindishdescription p{
+        font-size: 12px;
+    }
+
+    h2{
+        font-size: 30px;
+    }
+
+    #boton{
+        margin-left: 60px;
+        padding-inline: 10px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        border-radius: 2px;
+        font-size: 10px;
+    }
+
+    #maindishprize{
+        color: red;
+        font-weight: 700;
+        font-size: 14px;
+    }
+
+
+    #menuimg{
+        visibility: visible;
+        right: 0px;
+        top: 10px;
+        width: 48px;
+        height: 42px;
+        background-size: cover;
+        cursor: pointer;
+    }
+
+    #more{
+        top: 20px;
+        padding-top: 60px;
+        left: 6px;
+        width: 100%;
+        height: 150px; /* Ajusta esto a la altura que desees para el nodo padre */
+        display: grid;
+        grid-template-columns: repeat(12, minmax(130px, 1fr)); /* Ajusta 100px al ancho mínimo que desees para los hijos */
+        grid-auto-rows: 130px; /* Ajusta esto a la altura que desees para los hijos */
+        gap: 10px;
+        overflow-x: auto;
+        overflow-y: auto;
+    }
+
+    .sidedish .sdtitle{
+        position: relative;
+        top: -50px;
+        margin-left: 10%;
+        color: #FFFFFF;
+        width: 80%;
+        font-size: 14px;
+    }
+
+    .sidedish{
+        width: 100px;
+        height: 90px;
+        padding: 0px;
+    }
+
+    .sidedish img{
+        position: relative;
+        top: -38px;
+        margin-left: -0%;
+        margin-right: none;
+        width: 70%;
+    }
+
+    .menu-icon .line {
+        transition: all 0.3s ease;
+    }
+
+    #profile img{
+        width: 16px;
+        position: relative;
+        visibility: visible;
+        margin-inline: 7px;
+        top: 4px;
+    }
+
+
+
+}
+
+@media screen and (max-width:430px){
+
+    #menuimg2{
+        transition: transform 0s;
+    }
+
+    #dentromenu{
+        background-color: rgb(0, 165, 194);
+        position: absolute;
+        width: 100%;
+        left: 100%;
+        top: -0vh;
+        height: 100vh;
+        padding-top: 10vh;
+        margin-block: 0%;
+        transition: transform 0.4s ease;
+        z-index: -1;
+    }
+
+    .menu-icon{
+        display: block;
+        top: 1vh;
+        right: 8vw;
+        z-index: 999;
+        width: 10vw;
+        height: 10vh;
+        transition: transform 0s;
+    }
+
+    #menu{
+        z-index: -1;
+        top: 0px;
+        left:00vw;
+        display: block;
+        word-spacing: 30px;
+        width: 100vw;
+        height: 100vh;
+        background-color: rgba(255, 255, 255, 0);
+        border-radius: 0%;
+        text-align: right;
+        transition: opacity 1s;
+        transition: transform 1s ease;
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+    #menu p{
+        display: block;
+        padding-right: 40vw;
+        font-size: 20px;
+    }
+
+    #menu #profile{
+        display: block;
+        top: 10%;
+        left: 39%;
+        width: 90px;
+        height: 110px;
+        background-image: none;
+        overflow-y: visible;
+        overflow-x: hidden;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center bottom;
+        overflow: visible;
+        visibility: visible;
+    }
+
+    #profile img{
+        width: 100px;
+        position: relative;
+        left: -12px;
+        top: 0px;
+        visibility: visible;
+    }
+
+
+
+    #maindish{
+        left: -8px;
+        top: -20px;
+        background-color: rgb(0, 0, 0);
+        width: 50vw;
+        height: 48vh;
+        font-size: 8vw;
+        font-weight: 700;
+    }
+
+    
+    #maindish img{
+        left: 0%;
+        top: 16%;
+        width: 100%;
+    }
+
+    #maindishdescription{
+        width: 42vw;
+        height: 38vh;
+        top: 22vh;
+        left: 52vw;
+    }
+
+    #maindishdescription p{
+        font-size: 3.5vw;
+    }
+
+    h2{
+        font-size: 6vw;
+    }
+
+    #boton{
+        margin-left: 11vw;
+        padding-inline: 10px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        border-radius: 10%;
+        font-size: 3.5vw;
+    }
+
+    #maindishprize{
+        color: red;
+        font-weight: 700;
+        font-size: 4vw;
+    }
+
+
+
+    #more{
+        top: 0vh;
+        left: 1vw;
+        width: 92vw;
+        height: 340px; /* Ajusta esto a la altura que desees para el nodo padre */
+        display: grid;
+        grid-template-columns: repeat(6, minmax(100px, 1fr)); /* Ajusta 100px al ancho mínimo que desees para los hijos */
+        grid-auto-rows: 130px; /* Ajusta esto a la altura que desees para los hijos */
+        grid-row-gap:10px;
+        grid-column-gap: 10px;
+        overflow-x: auto;
+    }
+
+    .sidedish{
+        width: 90px;
+        height: 90px;
+        padding: 0px;
+
+    }
+
+    .sidedish .sdtitle{
+        position: relative;
+        top: -50px;
+        margin-left: 10%;
+        color: #FFFFFF;
+        width: 80%;
+        font-size: 12px;
+    }
+
+    .sidedish img{
+        position: relative;
+        top: -40px;
+        margin-left: 10%;
+        margin-right: 0%;
+        width: 80%;
+    }
+
+    .menu-icon .line {
+        transition: all 0s ease;
+    }
+
+}
+
+#menuimg{
+    position: absolute;
+}
+
+#actual{
+    color: red;
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    text-decoration-skip-ink: none;
+    text-decoration-thickness: 2px;
+}
+
+
+body{
+    background-color: white;
+    font-family: sans-serif;
+    width: 100vw;
+    overflow-x: hidden;
+    z-index: 0;
+}
+
+h2{
+    margin-top: 1px;
+    margin-bottom: -8px;
+    font-weight: 900;
+}
+
+#menu{
+    position: absolute;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+#dentromenu > :first-child{
+    text-decoration: underline;
+}
+
+#profile{
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0);
+    position: relative;
+    top: -20px;
+    left: 360px;
+    overflow: hidden;
+}
+
+#maindish{
+    margin-top: -20px;
+    padding-top: 30px;
+    position: relative;
+    border-radius: 4px;
+    color: white;
+    text-align: center;
+}
+
+#maindishdescription{
+    position: absolute;
+}
+
+#maindishprize{
+    color: red;
+    font-weight: 700;
+}
+
+#boton{
+    color: #FFFFFF;
+    background-color: black;
+}
+
+
+#maindish img{
+    position: relative;
+    transition: transform 1s;
+}
+
+#maindish img:hover {
+    transform: rotate(365deg);
+}
+
+
+#more {
+    position: relative;
+}
+
+.sidedish {
+    background-color: #383835;
+    border-radius: 10%;
+    cursor: pointer;
+}
+
+.menu-icon {
+    position: absolute;
+    cursor: pointer;
+}
+
+#profile:hover {
+    filter: invert(100%);
+}
+
+
