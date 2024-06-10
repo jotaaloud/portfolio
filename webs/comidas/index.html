@@ -66,49 +66,6 @@
     alert('Web bajo construcción');
 }
 
-
-
-
-
-//cambiotitulos-----------------------------------
-
-// Obtenemos todos los elementos .sidedish
-var sideDishes = document.querySelectorAll('.sidedish');
-
-// Para cada .sidedish, añadimos un event listener para el evento de click
-for (let i = 0; i < sideDishes.length; i++) {
-    sideDishes[i].addEventListener('click', function() {
-        // Cuando se hace clic en un .sidedish, encontramos el .sdtitle y la imagen dentro de él
-        var sdTitle = this.querySelector('.sdtitle');
-        var sideDishImage = this.querySelector('img');
-
-        // También obtenemos el texto del elemento h2 y la imagen dentro de #maindishdescription
-        var mainDishDescription = document.querySelector('#maindishdescription h2');
-        var mainDishImage = document.querySelector('#maindish img');
-
-        // Guardamos el texto original del .sdtitle y del h2
-        var originalSdTitle = sdTitle.innerText;
-        var originalMainDishDescription = mainDishDescription.innerText;
-
-        // Guardamos el src original de la imagen del maindish y del sidedish
-        var originalMainDishSrc = mainDishImage.src;
-        var originalSideDishSrc = sideDishImage.src;
-
-        // Y cambiamos el texto del .sdtitle y del h2 por el texto del otro
-        sdTitle.innerText = originalMainDishDescription;
-        mainDishDescription.innerText = originalSdTitle;
-
-        // Y cambiamos el src de la imagen del maindish y del sidedish por el src del otro
-        mainDishImage.src = originalSideDishSrc;
-        sideDishImage.src = originalMainDishSrc;
-    });
-}
-
-
-
-//cambiotitulos-----------------------------------
-
-
     var diagonal = false;
     let miBoton = document.getElementById('menuimg2');
     document.getElementById("menuimg2").onclick = function() {
@@ -119,7 +76,6 @@ for (let i = 0; i < sideDishes.length; i++) {
         var todoMenu = document.getElementById('dentromenu');
         
         console.log('Variable diagonal: '+diagonal);
-
 
 
         if(window.innerWidth > 430){
