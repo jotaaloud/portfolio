@@ -41,7 +41,7 @@
 
     #maindish img{
         left: -10px;
-        top:60px;
+        bottom: 0%;/*top 60px*/
         width: 360px;
     }
 
@@ -172,7 +172,7 @@
 
     #maindish img{
         left: -10px;
-        top: 60px;
+        bottom: -14%; /*top 60px*/
         width: 260px;
     }
 
@@ -266,8 +266,6 @@
         top: 4px;
     }
 
-
-
 }
 
 @media screen and (max-width:430px){
@@ -345,8 +343,6 @@
         visibility: visible;
     }
 
-
-
     #maindish{
         left: -8px;
         top: -20px;
@@ -357,17 +353,17 @@
         font-weight: 700;
     }
 
-    
+
     #maindish img{
         left: 0%;
-        top: 16%;
+        bottom: -2%;      /*top 16%*/
         width: 100%;
     }
 
     #maindishdescription{
         width: 42vw;
         height: 38vh;
-        top: 22vh;
+        top: 18vh;
         left: 52vw;
     }
 
@@ -394,16 +390,14 @@
         font-size: 4vw;
     }
 
-
-
     #more{
         top: 0vh;
         left: 1vw;
         width: 92vw;
-        height: 340px; /* Ajusta esto a la altura que desees para el nodo padre */
+        height: 340px; 
         display: grid;
-        grid-template-columns: repeat(6, minmax(100px, 1fr)); /* Ajusta 100px al ancho mínimo que desees para los hijos */
-        grid-auto-rows: 130px; /* Ajusta esto a la altura que desees para los hijos */
+        grid-template-columns: repeat(6, minmax(100px, 1fr)); /* 100px es la anchura minima de los hijos */
+        grid-auto-rows: 130px; /* Altura minima de los hijos */
         grid-row-gap:10px;
         grid-column-gap: 10px;
         overflow-x: auto;
@@ -450,7 +444,6 @@
     text-decoration-skip-ink: none;
     text-decoration-thickness: 2px;
 }
-
 
 body{
     background-color: white;
@@ -512,16 +505,14 @@ h2{
     background-color: black;
 }
 
-
 #maindish img{
-    position: relative;
+    position: absolute;
     transition: transform 1s;
 }
 
 #maindish img:hover {
     transform: rotate(365deg);
 }
-
 
 #more {
     position: relative;
@@ -541,5 +532,3 @@ h2{
 #profile:hover {
     filter: invert(100%);
 }
-
-
