@@ -222,10 +222,10 @@
         padding-top: 60px;
         left: 6px;
         width: 100%;
-        height: 150px; /* Ajusta esto a la altura que desees para el nodo padre */
+        height: 150px;
         display: grid;
-        grid-template-columns: repeat(12, minmax(130px, 1fr)); /* Ajusta 100px al ancho mínimo que desees para los hijos */
-        grid-auto-rows: 130px; /* Ajusta esto a la altura que desees para los hijos */
+        grid-template-columns: repeat(12, minmax(130px, 1fr));
+        grid-auto-rows: 130px; 
         gap: 10px;
         overflow-x: auto;
         overflow-y: auto;
@@ -290,7 +290,7 @@
     .menu-icon{
         display: block;
         top: 1vh;
-        right: 8vw;
+        right: 3vw;
         z-index: 999;
         width: 10vw;
         height: 10vh;
