@@ -451,6 +451,7 @@ body{
     width: 100vw;
     overflow-x: hidden;
     z-index: 0;
+    border: none;
 }
 
 h2{
