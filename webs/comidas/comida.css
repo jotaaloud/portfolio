@@ -517,12 +517,14 @@ h2{
 
 #more {
     position: relative;
+    scroll-snap-type: x mandatory;
 }
 
 .sidedish {
     background-color: #383835;
     border-radius: 10%;
     cursor: pointer;
+    scroll-snap-align: start;
 }
 
 .menu-icon {
