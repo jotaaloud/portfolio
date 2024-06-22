@@ -20,6 +20,7 @@
     </div>
 
 
+    
     <div id="maindish">
         <p>loudbar</p>
         <img src="images/chuletas.png"></div>
@@ -31,7 +32,7 @@
     </div>
 
     <div id="more">  <!--Cada vez que se añadan sidedish hay que cambiar el display:grid-->
-        <div class="sidedish"><img src="images/arroz.png"><p class="sdtitle">Arroz</p></div>
+        <div class="sidedish"><img src="images/arroz.png" onmouseover="hover(this);" onmouseout="unhover(this);"><p class="sdtitle">Arroz</p><p class="sddescription">Receta del grandisimo Juan Pedro de la vega. No hace falta estar malo de la tripa para comerte este arroz sin echarle na de na. Un poko de caldo de pollo y ajo en polvo.</p></div>
         <div class="sidedish"><img src="images/construccion.png"><p class="sdtitle">Otro</p></div>
         <div class="sidedish"><img src="images/construccion.png"><p class="sdtitle">Otro</p></div>
         <div class="sidedish"><img src="images/construccion.png"><p class="sdtitle">Otro</p></div>
@@ -44,6 +45,7 @@
         <div class="sidedish"><img src="images/construccion.png"><p class="sdtitle">Otro</p></div>
         <div class="sidedish"><img src="images/construccion.png"><p class="sdtitle">Otro</p></div>
     </div>
+
 
 
 <!------------------------------------------------------------>
@@ -107,6 +109,7 @@ for (let i = 0; i < sideDishes.length; i++) {
 
 //cambiotitulos-----------------------------------
 
+
     var diagonal = false;
     let miBoton = document.getElementById('menuimg2');
     document.getElementById("menuimg2").onclick = function() {
@@ -117,6 +120,7 @@ for (let i = 0; i < sideDishes.length; i++) {
         var todoMenu = document.getElementById('dentromenu');
         
         console.log('Variable diagonal: '+diagonal);
+
 
 
         if(window.innerWidth > 430){
@@ -139,7 +143,6 @@ for (let i = 0; i < sideDishes.length; i++) {
                
             }
         }
-        
 
         if(window.innerWidth < 430){
             
@@ -152,8 +155,6 @@ for (let i = 0; i < sideDishes.length; i++) {
                 namesDiv.style.opacity = "1";
                 namesDiv.style.zIndex = "999";
                 todoMenu.style.transform = 'translateX(-103vw)';
-                
-
             
             }else{
                 miBoton.disabled = true;
