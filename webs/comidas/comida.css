@@ -107,7 +107,6 @@
         position: relative;
         top: -60px;
         margin-left: 10%;
-        color: #FFFFFF;
         width: 80%;
         font-size: 14px;
     }
@@ -155,6 +154,7 @@
         right: 80px;
         width: 20%;
         transition: opacity 0.3s;
+        border: 1px solid  #4a3331;
     }
 
     #menu p{
@@ -235,7 +235,6 @@
         position: relative;
         top: -50px;
         margin-left: 10%;
-        color: #FFFFFF;
         width: 80%;
         font-size: 14px;
     }
@@ -275,7 +274,7 @@
     }
 
     #dentromenu{
-        background-color: rgb(0, 165, 194);
+        background-color: #F9EBDE;;
         position: absolute;
         width: 100%;
         left: 100%;
@@ -285,6 +284,7 @@
         margin-block: 0%;
         transition: transform 0.4s ease;
         z-index: -1;
+        border: none;
     }
 
     .menu-icon{
@@ -312,6 +312,7 @@
         transition: transform 1s ease;
         overflow-x: hidden;
         overflow-y: hidden;
+        border: none;
     }
     #menu p{
         display: block;
@@ -414,7 +415,6 @@
         position: relative;
         top: -50px;
         margin-left: 10%;
-        color: #FFFFFF;
         width: 80%;
         font-size: 12px;
     }
@@ -446,12 +446,12 @@
 }
 
 body{
-    background-color: white;
+    background-color: #F9EBDE;
     font-family: sans-serif;
     width: 100vw;
     overflow-x: hidden;
     z-index: 0;
-    border: none;
+    height: 100vh;
 }
 
 h2{
@@ -487,13 +487,14 @@ h2{
     margin-top: -20px;
     padding-top: 30px;
     position: relative;
-    border-radius: 4px;
-    color: white;
+    border-radius: 10px;
     text-align: center;
+    /*background-color: rgb(39, 39, 39);*/
 }
 
 #maindishdescription{
     position: absolute;
+    color: rgb(0, 0, 0);
 }
 
 #maindishprize{
@@ -518,17 +519,14 @@ h2{
 #more {
     position: relative;
     scroll-snap-type: x mandatory;
+
 }
 
 .sidedish {
-    background-color: #383835;
+    scroll-snap-align: start;
+    /*Antes #383835*/
     border-radius: 10%;
     cursor: pointer;
-    scroll-snap-align: start;
-}
-
-.sddescription{
-    display: none;
 }
 
 .menu-icon {
@@ -538,4 +536,25 @@ h2{
 
 #profile:hover {
     filter: invert(100%);
+}
+
+.sddescription{
+    display: none;
+}
+
+.sdtitle{
+    color: rgb(255, 255, 255);
+}
+
+#maindish, .sidedish , #boton{
+    background-color: #4a3331;
+    color: #F9EBDE;
+}
+
+#maindishdescription , #maindishprize{
+    color:#4a3331;
+}
+
+#menu{
+    color:#4a3331;
 }
