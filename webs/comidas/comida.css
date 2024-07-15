@@ -519,7 +519,7 @@ h2{
 #more {
     position: relative;
     scroll-snap-type: x mandatory;
-
+    max-width: 800px;
 }
 
 .sidedish {
