@@ -1,2 +1,2 @@
 # portfolio
-![https://github.com/jotaaloud](https://github.com/jotaaloud/portfolio/blob/main/images/cap-multi.png?raw=true)
+![https://github.com/jotaaloud](images/cap-multi.png)
