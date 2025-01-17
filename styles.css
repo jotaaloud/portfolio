@@ -135,9 +135,6 @@ img, video, svg { height: auto; max-width: 100%; }
     margin-right: 28px;
   }
 
-
-
-
 }
 
 @media(max-width:600px){
@@ -306,6 +303,14 @@ footer{
 
   #CL_content p, #CL_content a{
     font-size: 80%;
+  }
+
+  li:active, li:hover{
+    box-shadow:  4px 4px 6px 0 rgba(255,255,255,.5),
+                -4px -4px 6px 0 rgba(116, 125, 136, .2), 
+      inset -4px -4px 6px 0 rgba(255,255,255,.5),
+      inset 4px 4px 6px 0 rgba(116, 125, 136, .3);
+      border: 1px solid red;
   }
 
 }
