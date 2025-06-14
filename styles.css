@@ -701,6 +701,15 @@ footer img:active{
   display: inline-block;
 }
 
+.kotlin::before{
+  content: "";
+  height: 12px;
+  width: 12px;
+  background-color: rgb(169, 123, 255);
+  border-radius: 50%;
+  display: inline-block;
+}
+
 .liscence{
   width: 24px;
   height: 24px;
